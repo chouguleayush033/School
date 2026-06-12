@@ -1,0 +1,107 @@
+* {
+      margin: 0;
+        padding: 0;
+          box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+            }
+
+            .top-bar {
+              background: #0a1f44;
+                color: white;
+                  padding: 8px 40px;
+                    display: flex;
+                      justify-content: space-between;
+                        font-size: 14px;
+                        }
+
+                        header {
+                          background: white;
+                            display: flex;
+                              justify-content: space-between;
+                                align-items: center;
+                                  padding: 18px 40px;
+                                    border-bottom: 1px solid #ddd;
+                                      position: sticky;
+                                        top: 0;
+                                          z-index: 1000;
+                                          }
+
+                                          .logo {
+                                            font-size: 22px;
+                                              font-weight: bold;
+                                                color: #0a1f44;
+                                                }
+
+                                                nav a {
+                                                  margin-left: 25px;
+                                                    text-decoration: none;
+                                                      color: #333;
+                                                        font-weight: 500;
+                                                        }
+
+                                                        nav a.active,
+                                                        nav a:hover {
+                                                          color: #0a1f44;
+                                                            border-bottom: 2px solid #0a1f44;
+                                                            }
+
+                                                            .hero {
+                                                              height: 65vh;
+                                                                background: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f")
+                                                                    center/cover no-repeat;
+                                                                      display: flex;
+                                                                        align-items: center;
+                                                                          padding-left: 60px;
+                                                                          }
+
+                                                                          .hero-content {
+                                                                            background: rgba(255,255,255,0.95);
+                                                                              padding: 40px;
+                                                                                max-width: 500px;
+                                                                                }
+
+                                                                                .hero-content h1 {
+                                                                                  font-size: 36px;
+                                                                                    color: #0a1f44;
+                                                                                    }
+
+                                                                                    .hero-content button,
+                                                                                    .section button {
+                                                                                      margin-top: 20px;
+                                                                                        padding: 10px 25px;
+                                                                                          border: none;
+                                                                                            background: #0a1f44;
+                                                                                              color: white;
+                                                                                                cursor: pointer;
+                                                                                                }
+
+                                                                                                .section {
+                                                                                                  padding: 60px 80px;
+                                                                                                    text-align: center;
+                                                                                                    }
+
+                                                                                                    .section.light {
+                                                                                                      background: #f4f6f9;
+                                                                                                      }
+
+                                                                                                      .highlights {
+                                                                                                        display: flex;
+                                                                                                          justify-content: space-around;
+                                                                                                            padding: 50px;
+                                                                                                              background: #f4f6f9;
+                                                                                                              }
+
+                                                                                                              .box {
+                                                                                                                width: 280px;
+                                                                                                                  background: white;
+                                                                                                                    padding: 25px;
+                                                                                                                      border-left: 4px solid #0a1f44;
+                                                                                                                      }
+
+                                                                                                                      footer {
+                                                                                                                        background: #0a1f44;
+                                                                                                                          color: white;
+                                                                                                                            text-align: center;
+                                                                                                                              padding: 15px;
+                                                                                                                              }
+}
